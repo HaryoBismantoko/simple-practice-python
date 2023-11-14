@@ -2,8 +2,8 @@ import random
 
 random_number = random.randint(1, 100)
 randnum = random_number
-kesulitan = input("pilih kesulitan, hard atau easy? h untuk Hard dan e untuk Easy")
-angka=int(input("Masukkan angka"))
+kesulitan = input("pilih kesulitan, hard atau easy? h untuk Hard dan e untuk Easy \n")
+angka=int(input("Masukkan angka : \n"))
 
 max_attempts = 0
 easy = max_attempts <= 5
@@ -30,7 +30,7 @@ def tebak_angka(angka,randnum):
             print("benar")
             return
         attempts += 1
-        angka=int(input("Masukkan angka lagi"))
+        angka=int(input("Masukkan angka lagi : \n"))
         
     if attempts == kesulitan:
         print("batas tebak sudah tercapai, nomor yang tepat adalah ", randnum)
