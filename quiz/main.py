@@ -14,7 +14,7 @@ for quesAsk in question_data:
             elif inpQuest.lower() != answer.lower():
                 print("Answer is wrong")
 
-print(f"Your final score is {score}")
+print(f"\n \033[1mYour final score is {score}\033[0m")
 
 
 
