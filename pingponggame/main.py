@@ -97,6 +97,7 @@ while game_is_on:
     #mereset posisi bola ketika dapat score / melewati batas koordinat horizontal
     if ball.trt.xcor() > 390 or ball.trt.xcor() < -390:
         ball.trt.goto(0,0)
+        time.sleep(0.5)
 
 
 
